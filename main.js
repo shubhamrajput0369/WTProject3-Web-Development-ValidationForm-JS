@@ -40,3 +40,8 @@ $(document).ready(function () {
             },
             custom: "demo msg"
         },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+});
