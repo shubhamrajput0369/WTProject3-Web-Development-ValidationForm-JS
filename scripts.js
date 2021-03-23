@@ -8,3 +8,7 @@ function validate(){
   var password = document.getElementById("password").value;
   var error_message = document.getElementById("error_message");
   
+  error_message.style.padding = "10px";
+  
+  var text;
+  
