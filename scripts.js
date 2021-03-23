@@ -12,3 +12,8 @@ function validate(){
   
   var text;
   
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please enter valid email address.";
+    error_message.innerHTML = text;
+    return false;
+  }
