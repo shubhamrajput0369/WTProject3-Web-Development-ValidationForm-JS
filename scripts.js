@@ -17,3 +17,7 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
+  if(password.length < 9){
+    text = "Please enter more than 9 characters password.";
+    error_message.innerHTML = text;
+    return false;
