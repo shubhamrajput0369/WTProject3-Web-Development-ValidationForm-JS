@@ -21,3 +21,7 @@ function validate(){
     text = "Please enter more than 9 characters password.";
     error_message.innerHTML = text;
     return false;
+  }
+  alert("Form Submitted Successfully!");
+  return true;
+}
