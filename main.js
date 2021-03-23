@@ -16,3 +16,20 @@ $(document).ready(function () {
                 required: true,
                 custom: true,
             },
+            user_email: {
+                required: true,
+                email: true
+            },
+            pwd: {
+                required: true,
+                minlength: 8
+            },
+        },
+        messages: {
+            fname: {
+                required: 'This field is required',
+                custom: 'Only characters are allowed'
+            },
+            lname: {
+                required: 'This field is required',
+                custom: 'Only characters are allowed'
